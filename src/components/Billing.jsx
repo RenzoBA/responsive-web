@@ -1,5 +1,5 @@
 import React from "react";
-import { apple, bill, card, google } from "../assets";
+import { apple, bill, google } from "../assets";
 
 const Business = () => {
   return (
@@ -15,9 +15,13 @@ const Business = () => {
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis
           culpa veniam ipsa, animi quaerat iure!
         </p>
-        <div className="flex gap-3">
-          <img src={apple} />
-          <img src={google} />
+        <div className="flex gap-3 z-10">
+          <a href="https://www.apple.com/app-store/">
+            <img src={apple} />
+          </a>
+          <a href="https://play.google.com/store/games">
+            <img src={google} />
+          </a>
         </div>
       </div>
 

@@ -20,8 +20,8 @@ const Hero = () => {
           </div>
           <div className="flex flex-col items-center lg:items-start">
             <h1 className="sm:text-7xl text-6xl font-semibold leading-[75px] sm:leading-[100px] w-full md:w-[700px]">
-              The Best <br className="sm:block hidden" />{" "}
-              <span className="text-gradient">Descentralize</span>
+              The Next <br className="sm:block hidden" />{" "}
+              <span className="text-gradient">Generation</span>
               <br className="sm:block hidden" /> Payment Method.
             </h1>
             <p className="max-w-md mt-5 text-dimWhite leading-relaxed">
