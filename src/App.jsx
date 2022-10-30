@@ -12,8 +12,8 @@ import {
 function App() {
   return (
     <div
-      className="bg-primary w-full overflow-x-hidden
-    text-white scrollbar-thin scrollbar-thumb-[#33bbcf] scrollbar-track-gray-800 h-screen overflow-y-scroll z-50"
+      className="bg-primary w-full  overflow-x-hidden
+    text-white scrollbar-thin scrollbar-thumb-[#33bbcf] scroll-py-16 sm:scroll-py-20 lg:scroll-py-14 h-screen overflow-y-scroll z-50"
     >
       <Navbar />
 

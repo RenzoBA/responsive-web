@@ -31,7 +31,7 @@ const Navbar = () => {
         <img
           src={toggleMenu ? close : menu}
           onClick={() => setToggleMenu(!toggleMenu)}
-          className="cursor-pointer w-8 h-8 self-end z-30"
+          className="cursor-pointer w-[28px] h-[28px] self-end z-30"
         />
         <div
           className={`${

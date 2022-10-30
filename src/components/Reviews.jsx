@@ -4,7 +4,7 @@ import { feedback } from "../constants";
 
 const Reviews = () => {
   return (
-    <div className="max-w-6xl flex flex-col h-full md:h-screen justify-around items-center mx-auto px-5 relative">
+    <div className="max-w-6xl flex flex-col h-full md:h-screen justify-around items-center mx-auto my-24 lg:my-0 px-5 relative">
       <div className="absolute z-[0] w-[60%] h-[60%] -right-[50%] md:-right-[35%] rounded-full blue__gradient bottom-40 animate-pulse" />
       <div className="w-full flex flex-col lg:flex-row items-center justify-center gap-10 text-center lg:text-left">
         <h2 className="sm:text-6xl text-5xl font-medium">
