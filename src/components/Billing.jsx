@@ -3,7 +3,7 @@ import { apple, bill, google } from "../assets";
 
 const Business = () => {
   return (
-    <div className="max-w-6xl flex flex-col lg:flex-row-reverse md:h-screen justify-around lg:justify-between items-center mx-auto px-5 relative my-24 lg:my-0">
+    <div className="max-w-6xl flex flex-col lg:flex-row-reverse xl:h-screen justify-around lg:justify-between items-center mx-auto px-5 relative my-24 lg:my-0">
       <div className="absolute z-[0] w-[40%] h-[30%] -left-20 top-0 pink__gradient animate-pulse" />
       <div className="absolute z-[1] w-[80%] h-[75%] -left-20 rounded-full white__gradient bottom-40 " />
       <div className="absolute z-[0] w-[50%] h-[45%] left-0 bottom-20 blue__gradient" />

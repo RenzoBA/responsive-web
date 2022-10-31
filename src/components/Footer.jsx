@@ -5,7 +5,7 @@ import { footerLinks, socialMedia } from "../constants";
 const Footer = () => {
   return (
     <footer className="max-w-7xl flex flex-col items-center px-5 mx-auto mt-32 divide-y divide-[#3F3E45]">
-      <div className="flex flex-col gap-10 md:gap-0 items-center md:grid-cols-9 md:grid w-full mx-auto px-0 sm:px-5 mb-10 md:mb-0 h-full md:h-[35vh]">
+      <div className="flex flex-col gap-10 md:gap-0 items-center md:grid-cols-9 md:grid w-full mx-auto px-0 sm:px-5 mb-10 lg:mb-16 h-full">
         <div className="flex flex-col items-center md:items-start text-center md:text-left md:col-span-4 h-full">
           <img src={logo} className="mb-5" />
           <p className="text-dimWhite px-5 w-full md:w-3/4">
